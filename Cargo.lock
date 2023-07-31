@@ -1213,7 +1213,11 @@ dependencies = [
 [[package]]
 name = "ggml"
 version = "0.2.0-dev"
+<<<<<<< HEAD
 source = "git+https://github.com/rustformers/llm.git?branch=main#0b435ab409d1aac557cb72ddf3f69d58b92fe95b"
+=======
+source = "git+https://github.com/rustformers/llm.git?branch=main#3b114b00c8338e78bfd99992911812471f1cdab5"
+>>>>>>> e6537af (minor)
 dependencies = [
  "ggml-sys",
  "memmap2",
@@ -1223,7 +1227,11 @@ dependencies = [
 [[package]]
 name = "ggml-sys"
 version = "0.2.0-dev"
+<<<<<<< HEAD
 source = "git+https://github.com/rustformers/llm.git?branch=main#0b435ab409d1aac557cb72ddf3f69d58b92fe95b"
+=======
+source = "git+https://github.com/rustformers/llm.git?branch=main#3b114b00c8338e78bfd99992911812471f1cdab5"
+>>>>>>> e6537af (minor)
 dependencies = [
  "cc",
 ]
@@ -1326,12 +1334,15 @@ dependencies = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "hashbrown"
 version = "0.14.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2c6201b9ff9fd90a5a3bac2e56a830d0caa509576f0e503818ee82c181b3437a"
 
 [[package]]
+=======
+>>>>>>> e6537af (minor)
 name = "hermit-abi"
 version = "0.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1465,6 +1476,7 @@ dependencies = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "indexmap"
 version = "2.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1475,6 +1487,8 @@ dependencies = [
 ]
 
 [[package]]
+=======
+>>>>>>> e6537af (minor)
 name = "indicatif"
 version = "0.16.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1876,7 +1890,11 @@ checksum = "09fc20d2ca12cb9f044c93e3bd6d32d523e6e2ec3db4f7b2939cd99026ecd3f0"
 [[package]]
 name = "llm"
 version = "0.2.0-dev"
+<<<<<<< HEAD
 source = "git+https://github.com/rustformers/llm.git?branch=main#0b435ab409d1aac557cb72ddf3f69d58b92fe95b"
+=======
+source = "git+https://github.com/rustformers/llm.git?branch=main#3b114b00c8338e78bfd99992911812471f1cdab5"
+>>>>>>> e6537af (minor)
 dependencies = [
  "llm-base",
  "llm-bloom",
@@ -1892,7 +1910,11 @@ dependencies = [
 [[package]]
 name = "llm-base"
 version = "0.2.0-dev"
+<<<<<<< HEAD
 source = "git+https://github.com/rustformers/llm.git?branch=main#0b435ab409d1aac557cb72ddf3f69d58b92fe95b"
+=======
+source = "git+https://github.com/rustformers/llm.git?branch=main#3b114b00c8338e78bfd99992911812471f1cdab5"
+>>>>>>> e6537af (minor)
 dependencies = [
  "bytemuck",
  "ggml",
@@ -1911,7 +1933,11 @@ dependencies = [
 [[package]]
 name = "llm-bloom"
 version = "0.2.0-dev"
+<<<<<<< HEAD
 source = "git+https://github.com/rustformers/llm.git?branch=main#0b435ab409d1aac557cb72ddf3f69d58b92fe95b"
+=======
+source = "git+https://github.com/rustformers/llm.git?branch=main#3b114b00c8338e78bfd99992911812471f1cdab5"
+>>>>>>> e6537af (minor)
 dependencies = [
  "llm-base",
 ]
@@ -1919,7 +1945,11 @@ dependencies = [
 [[package]]
 name = "llm-gpt2"
 version = "0.2.0-dev"
+<<<<<<< HEAD
 source = "git+https://github.com/rustformers/llm.git?branch=main#0b435ab409d1aac557cb72ddf3f69d58b92fe95b"
+=======
+source = "git+https://github.com/rustformers/llm.git?branch=main#3b114b00c8338e78bfd99992911812471f1cdab5"
+>>>>>>> e6537af (minor)
 dependencies = [
  "bytemuck",
  "llm-base",
@@ -1928,7 +1958,11 @@ dependencies = [
 [[package]]
 name = "llm-gptj"
 version = "0.2.0-dev"
+<<<<<<< HEAD
 source = "git+https://github.com/rustformers/llm.git?branch=main#0b435ab409d1aac557cb72ddf3f69d58b92fe95b"
+=======
+source = "git+https://github.com/rustformers/llm.git?branch=main#3b114b00c8338e78bfd99992911812471f1cdab5"
+>>>>>>> e6537af (minor)
 dependencies = [
  "llm-base",
 ]
@@ -1936,7 +1970,11 @@ dependencies = [
 [[package]]
 name = "llm-gptneox"
 version = "0.2.0-dev"
+<<<<<<< HEAD
 source = "git+https://github.com/rustformers/llm.git?branch=main#0b435ab409d1aac557cb72ddf3f69d58b92fe95b"
+=======
+source = "git+https://github.com/rustformers/llm.git?branch=main#3b114b00c8338e78bfd99992911812471f1cdab5"
+>>>>>>> e6537af (minor)
 dependencies = [
  "llm-base",
 ]
@@ -1944,7 +1982,11 @@ dependencies = [
 [[package]]
 name = "llm-llama"
 version = "0.2.0-dev"
+<<<<<<< HEAD
 source = "git+https://github.com/rustformers/llm.git?branch=main#0b435ab409d1aac557cb72ddf3f69d58b92fe95b"
+=======
+source = "git+https://github.com/rustformers/llm.git?branch=main#3b114b00c8338e78bfd99992911812471f1cdab5"
+>>>>>>> e6537af (minor)
 dependencies = [
  "llm-base",
  "tracing",
@@ -1953,7 +1995,11 @@ dependencies = [
 [[package]]
 name = "llm-mpt"
 version = "0.2.0-dev"
+<<<<<<< HEAD
 source = "git+https://github.com/rustformers/llm.git?branch=main#0b435ab409d1aac557cb72ddf3f69d58b92fe95b"
+=======
+source = "git+https://github.com/rustformers/llm.git?branch=main#3b114b00c8338e78bfd99992911812471f1cdab5"
+>>>>>>> e6537af (minor)
 dependencies = [
  "llm-base",
 ]
@@ -2086,9 +2132,15 @@ dependencies = [
 
 [[package]]
 name = "monostate"
+<<<<<<< HEAD
 version = "0.1.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "15f370ae88093ec6b11a710dec51321a61d420fafd1bad6e30d01bd9c920e8ee"
+=======
+version = "0.1.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d8b39da4836f73aeb501732b1f9b614fc1610d7a289081d544f113f6238405f7"
+>>>>>>> e6537af (minor)
 dependencies = [
  "monostate-impl",
  "serde",
@@ -2096,9 +2148,15 @@ dependencies = [
 
 [[package]]
 name = "monostate-impl"
+<<<<<<< HEAD
 version = "0.1.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "371717c0a5543d6a800cac822eac735aa7d2d2fbb41002e9856a4089532dbdce"
+=======
+version = "0.1.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f792cd1237b6596c82d4bb67028127c93af5c6dd86b3dc411b759a7504ecd1ab"
+>>>>>>> e6537af (minor)
 dependencies = [
  "proc-macro2",
  "quote",

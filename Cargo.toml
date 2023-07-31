@@ -21,7 +21,11 @@ serde = { version = "1.0.160", features = ["derive"] }
 rand = { version = "0.8.5", optional = true }
 env_logger = "0.10.0"
 dotenv ={ version = "0.15.0", optional = true }
+<<<<<<< HEAD
 llm = { git = "https://github.com/rustformers/llm.git", branch = "main", optional = true, features = ["cublas"] }
+=======
+llm = { git = "https://github.com/rustformers/llm.git", branch = "main", optional = true, features = ["llama"] }
+>>>>>>> e6537af (minor)
 
 [features]
 csr = ["leptos/csr", "leptos_meta/csr", "leptos_router/csr"]

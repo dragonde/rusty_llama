@@ -60,7 +60,11 @@ cfg_if! {
                 context_size: 2048,
                 lora_adapters: None,
                 use_gpu: true,
+<<<<<<< HEAD
                 gpu_layers: Some(35), // 20 for 6_K
+=======
+                gpu_layers: Some(50),
+>>>>>>> e6537af (minor)
             };
 
             llm::load::<Llama>(
