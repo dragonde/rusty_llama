@@ -50,6 +50,7 @@ cfg_if! {
         use actix_web::*;
         use std::env;
         use dotenv::dotenv;
+
         fn get_language_model() -> Llama {
             use std::path::PathBuf;
             dotenv().ok();
@@ -59,6 +60,7 @@ cfg_if! {
                 context_size: 2048,
                 lora_adapters: None,
                 use_gpu: true,
+                gpu_layers: Some(35), // 20 for 6_K
             };
 
             llm::load::<Llama>(
